@@ -159,6 +159,7 @@ public class IntList {
      * as THIS. Cannot handle IntLists with cycles. You are not expected to
      * read or understand this method.
      */
+    @Override
     public boolean equals(Object x) {
         if (!(x instanceof IntList)) {
             return false;
